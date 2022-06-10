@@ -1,0 +1,131 @@
+body{
+    margin: auto;
+    background-color: #092473;
+}
+#encabezado{
+    position:relative;
+    width:100%;
+    height: 25vh;
+    top:0px;
+    left:0px;
+    padding: 0;
+    z-index: 10;
+
+}
+/* columnas -
+------------------------------------------------------------------------------------------------*/
+#colIzquierdo, #colDerecho{
+    width: 11vw;
+    min-height:100%;
+    background-color:#FABE2E;
+    top:26.5vh;
+    position:absolute;
+   
+
+}
+#colDerecho{
+    right:0%;
+
+}
+/*Main
+---------------------------*/
+#contenedor{
+    position: absolute;
+    left: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 80vh;
+    overflow: auto;
+}
+h4{
+    text-align: center;
+}
+img{
+    position: relative;
+    
+}
+
+.materia{
+    
+    background-color: #FFFFFF;
+    width:20vw;
+    height: 40vh;
+    margin: 14px;
+    padding: -10%;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+    text-justify: center;
+    text-align: center;
+    overflow: auto;
+}
+
+.materia:hover{
+    background-color: #FABE2E;
+    padding: 2%;
+}
+.tareas{
+    position: relative;
+    width: 20vw;
+    height: 12vh;
+    bottom:-3vh;
+    background-color:#a1a1a1;
+    overflow: auto;
+}
+#main{
+    position: relative;
+    width:80vw;
+    height: auto;
+    
+    position:relative;
+    left:10.6vw;
+    top:0;
+    padding: 0;
+    display: flex;
+}
+#titulo{
+    background-color:#D1A11D;
+    color:#FFFFFF;
+    text-align: left;
+    width:10vw;
+    height:7vh;
+    position: absolute;
+    left: 2vw;
+    top:5vh;
+    border-radius: 5px;
+}
+
+/* pie de página
+--------------------------------*/
+#piedep{
+    background-color: #C5DCFF;
+    width:100%;
+    height:20%;
+    line-height: 30px;
+    text-align: center;
+    color:#4f89c0;
+    position:absolute;
+    top: 125vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

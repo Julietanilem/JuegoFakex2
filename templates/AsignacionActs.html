@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Asignación de actividades</title>
+        <link rel="stylesheet" href="../Estilo/statics/styles/estilos.css">
+        <link rel="stylesheet" href="../Estilo/statics/styles/estilos.css">
+    </head>
+    <body>
+        <form enctype="multipart/form-data" id="form" method="post" class="fondo" >
+            <div class="rec" id="rec1"></div>
+            <div class="rec" id="rec2"></div>
+    
+          
+                
+            <input type="text" name="titulo" class="titulo" id="titulo3" placeholder="Titulo:">
+            <input name="puntaje" type="number" min="1" max="100" class="etiqueta" id="ee" placeholder="Puntaje">
+            <input type="text" name="tema" class="etiqueta" id="ee7" placeholder="Tema:">
+        
+          
+            <div class="etiqueta" id="ee9">
+               
+                <label for="fecha">Fecha de entrega: 
+                    <input type="date" id="fecha" name="fecha" required>
+                </label><br><br>
+
+            </div>
+            <div class="etiqueta" id="eeA1">
+                
+                <label for="hora">Hora de entrega: 
+                    <input type="time" id="hora" name="hora" required>
+                </label><br><br>
+    
+            </div>
+            <div class="etiqueta"  id="eeA2">
+                    Rubrica
+                    <input name="rubricaArch"  type="file"></textarea>
+                </label> <br/><br/>
+            </div>
+
+            <div class="etiqueta" id="eeA3">
+                <p>Materiales de consulta:</p>
+            </div>
+            <div class="etiqueta" id="eeA4">
+                <label for="formatoEntrega">Formato de entrega: 
+                    <select name="formatoEntrega">
+                        <option value="PDF">PDF</option>
+                        <option value="Documento escaneado">Documento escaneado</option>
+                        <option value="PPTX">PPTX</option>
+                        <option value="Opcional">Opcional</option>
+                        <option value="World">World</option>
+                    </select>
+                </label><br/><br/>
+            </div>
+            <div class="etiqueta" id="eeA5">
+                <label for="linkConsulta" id="etiqLink">Subir link:
+                    <input type="text" name="link1">
+                    <div id="linkExtra"></div>
+                    <button id="agregarLink">Agregar</button>
+                </label> <br/><br/>
+               
+            </div>
+            <div class="etiqueta" id="eeA6">
+                <label for="linkConsulta" id="etiqArch">Subir archivo:
+                    <input type="file"name="arch1">
+                    <div id="archExtra"></div>
+                    <button id="agregarArch">Agregar</button>
+                </label> <br/><br/>
+                
+            </div>
+            <div >
+                 
+                    <textarea name="indicaciones" rows="5" cols="50" class="ind" id="inda5" placeholder="Indicaciones"></textarea>
+        
+            </div>
+            <textarea class="ind" id="inda6" name="rubricatxt" placeholder="rubrica"></textarea>
+            <!-- <div class="cubito" id="cubito1"></div>
+            <div class="cubito" id="cubito2"></div>
+            <div class="cubito" id="cubito3"></div> -->
+            <div class="boton" id="boton8"> <button id="btn_enviar"  class="boton" type="submit">Asignar</button></div>
+    
+        </form>
+    <script src="../dynamics/js/crearAct.js"></script>
+    </body>
+</html>

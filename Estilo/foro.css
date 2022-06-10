@@ -1,0 +1,115 @@
+body{
+    overflow-x:hidden;
+}
+.Cuadro-blanco {
+    position: absolute;
+
+    background-color: #FFFFFF;
+    position: absolute;
+
+    width: 70%;
+    height: auto;
+    overflow: auto;
+    top: 25%;
+    height: 50%;
+
+    top: 35vh;
+    left: 15%;
+}
+.indice {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: bold;
+    width: 20%;
+    height: 95%;
+    background-color: #C4C4C4;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 20px;
+    top: 0%;
+}
+.MaterialHoja{
+    background-color:#f2f2f2;
+    border-color: palevioletred;
+    border-width: 1vh;
+    margin:2vh;
+    height: 30vh;
+    overflow: auto;
+    flex-wrap: wrap;
+    width: 20vw;
+    
+}
+.prevista{
+    width: 100%;
+}
+.salir{
+    margin: 50px;
+}
+.pregunta{
+    background-color: antiquewhite;
+    margin:2vh;
+    width: auto;
+}
+.resp{
+    background-color: antiquewhite;
+    margin:2vh;
+    width: auto;
+}
+.usuario{
+    background-color: antiquewhite;
+    margin:2vh;
+}
+#filtradoF{
+    position:absolute;
+    left: 40vw;
+    top: 30vh;
+    color: aliceblue;
+    
+}
+#frecuente{
+    margin-left: 52vw;
+}
+#normal{
+    margin-left: 52vw;
+}
+#encabezado p{
+    font-size: 100% !important; 
+    font-weight: bold;
+}
+#piedep{
+    position: absolute;
+    bottom: 0% !important;
+}
+#preguntaNueva{
+    background-color: #C4C4C4;
+}
+#foro{
+    overflow-y: scroll;
+}
+.salir{
+    margin: 50px;
+}
+#tablon{
+    height: 80vh;
+    overflow-y: scroll;
+    display:flex;
+}
+#form{
+    position: relative;
+    left:45%;
+    background-color: #C4C4C4;
+    display: inline;
+}
+#reportado{
+    position:absolute;
+    top:50%;
+    left:2vh;
+}
+#meGusta{
+    position:absolute;
+    top:70%;
+    left:2vh;
+}
+#modif{
+    background-color: antiquewhite;
+}
